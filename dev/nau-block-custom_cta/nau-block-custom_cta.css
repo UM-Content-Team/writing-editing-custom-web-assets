@@ -1,0 +1,99 @@
+.nau-block-custom_cta article.content-wrapper .breakout-col {
+    position: relative;
+    flex-basis: 45%;
+    flex-grow: 0;
+}
+
+div.nau-block-custom_cta {
+    position: relative;
+    float: right;
+    width: auto;
+    margin-right: -25vw;
+    margin-bottom: 2.5em;
+    max-height: 100vh;
+    max-width: 40vw;
+    margin-left: 2.5em;
+}
+
+.nau-block-custom_cta article.content-wrapper.color-scheme-blue-background {
+
+    --background-color: #003466;
+    --text-color: white;
+    --border-color: #03427E;
+    --accent-color: #FFD200;
+    --link-color: #F1C704;
+
+}
+
+.nau-block-custom_cta article.content-wrapper.color-scheme-grey-background {
+
+    --background-color: #EAEEF1;
+    --text-color: #003466;
+    --border-color: #D8DDE2;
+    --accent-color: #3D7CBB;
+    --link-color: #3777b5;
+
+}
+
+.nau-block-custom_cta article.content-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    clear: both !important;
+    width: 35vw !important;
+    position: relative !important;
+    \\left:  !important;
+    \\right: !important;
+    margin-left: auto !important;
+    margin-right: 0px !important;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 20px solid var(--border-color);
+    padding: 4vw 5vw;
+    margin-top: calc( 20px * 4);
+    margin-bottom: calc( 20px * 4);
+
+}
+
+.nau-block-custom_cta article.content-wrapper h1, .nau-block-custom_cta article.content-wrapper h2 {
+    width: 100%;
+    padding-right: 60%;
+    color: var(--text-color);
+  }
+}
+.nau-block-custom_cta article.content-wrapper h2 {
+
+    font-size: 60px;
+
+}
+
+.nau-block-custom_cta article.content-wrapper .breakout-col {
+
+    position: relative;
+    flex-basis: 45%;
+    flex-grow: 0;
+
+}
+
+.nau-block-custom_cta article.content-wrapper .breakout-col p, .nau-block-custom_cta article.content-wrapper .breakout-col ul, .nau-block-custom_cta article.content-wrapper .breakout-col li {
+
+    font: normal normal normal 18px/1.3 "acumin-pro-semi-condensed", san-serif;
+        font-size: 18px;
+        line-height: 1.3;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--text-color);
+
+}
+
+@media (max-width: 991px) {
+  .nau-block-custom_cta article.content-wrapper .breakout-col {
+    flex-basis: 100% !important;
+  }
+  .nau-block-custom_cta article.content-wrapper h1, .nau-block-custom_cta article.content-wrapper h2 {
+    padding-right: 0;
+    word-wrap: break-word;
+  }
+}
+
