@@ -1,23 +1,37 @@
 :root {
-    --accent-color: #816F65;
+    --gcustom-accent-color: #816F65;
+    --gcustom-header-font-size: 2rem;
 }
 
-h5,
-h6,
-h7,
-h8,
-h9,
-h10,
-.h5,
-.h6,
-.h7,
-.h8,
-.h9,
-.h10 {
-    color: var(--accent-color);
+main.content :where(h4) {
+    font-size: var(--gcustom-header-font-size) !important;
+}
+
+main.content :where(
+    h5,
+    h6,
+    h7,
+    h8,
+    h9,
+    h10,
+    .h5,
+    .h6,
+    .h7,
+    .h8,
+    .h9,
+    .h10) {
+    color: var(--gcustom-accent-color);
     margin-bottom: 14px;
     font-family: 'acumin-pro-condensed', Arial, Sans-Serif;
-    font-size: 18px;
+    font-size: var(--gcustom-header-font-size);
     text-transform: uppercase;
     line-height: 30px;
+}
+
+li.mega-menu-item:nth-of-type(6) a {
+    text-transform: lowercase !important;
+}
+
+li.mega-menu-item:nth-of-type(6) a:first-letter {
+    text-transform: uppercase !important;
 }
