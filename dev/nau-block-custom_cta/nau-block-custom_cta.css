@@ -40,6 +40,17 @@ div.nau-block-custom_cta.left-align {
     --link-color: #3777b5;
 }
 
+.h3 {
+    color: #003466 !important;
+    border-bottom: none !important;
+    font: normal normal normal 18px/1.3 "acumin-pro-semi-condensed", san-serif !important;
+    font-size: 27px !important;
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+    box-sizing: border-box !important;
+    text-transform: none !important;
+}
+
 .cust-emph {
     color: var(--accent-color);
 }
