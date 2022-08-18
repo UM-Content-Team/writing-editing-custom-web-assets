@@ -140,6 +140,15 @@ div.nau-block-custom_cta.left-align {
     color: var(--accent-color);
 }
 
+:is(figure.um-custom-left-image, #important) {
+    float: left;
+    margin-left: -13em;
+    margin-right: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90%;
+    max-width: 750px;
+}
 
 @media (max-width: 991px) {
     .nau-block-custom_cta article.content-wrapper .breakout-col {
@@ -166,5 +175,13 @@ div.nau-block-custom_cta.left-align {
         width: 100% !important;
         max-width: 95vw !important;
         float: unset !important;
+    }
+    
+    :is(figure.um-custom-left-image, #important) {
+        float: unset;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: unset;
     }
 }
