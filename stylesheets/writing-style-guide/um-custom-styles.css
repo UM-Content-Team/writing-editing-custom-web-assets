@@ -35,3 +35,8 @@ li.mega-menu-item:nth-of-type(6) a {
 li.mega-menu-item:nth-of-type(6) a:first-letter {
     text-transform: uppercase !important;
 }
+
+a.naumh__logo-cont {
+    position: unset !important;
+    order: 0 !important;
+}
